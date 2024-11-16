@@ -1,4 +1,4 @@
-Searchokemon
+
 Searchokemon est une application innovante qui permet aux utilisateurs de gérer leurs cartes Pokémon, d'identifier leurs noms à partir d'images, et de calculer leur prix moyen à l'aide de l'API eBay. Avec une interface simple et intuitive, Searchokemon combine la reconnaissance d'image et la puissance des API pour aider les collectionneurs à évaluer leur collection.
 
 Fonctionnalités
