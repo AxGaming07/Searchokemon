@@ -98,3 +98,6 @@ Copier le code
    git add README.md
    git commit -m "Ajout du README"
    git push
+
+---
+Le support : https://discord.gg/wztuKaWdSZ
