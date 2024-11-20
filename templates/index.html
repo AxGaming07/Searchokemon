@@ -1,20 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestion des Cartes Pokémon</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers ton fichier CSS externe -->
 </head>
+
 <body>
-    <h1>Bienvenue dans le gestionnaire de cartes Pokémon</h1>
-    {% if "access_token" in session %}
-        <form action="/upload" method="POST" enctype="multipart/form-data">
-            <label for="file">Télécharger une image :</label>
-            <input type="file" id="file" name="file" required>
-            <button type="submit">Analyser</button>
-        </form>
-    {% else %}
-        <a href="/login">Connectez-vous à eBay</a>
-    {% endif %}
+    <!-- Header -->
+    <header>
+        <h1>Bienvenue dans le gestionnaire de cartes Pokémon</h1>
+    </header>
+
+    <!-- Section principale -->
+    <div class="container">
+        {% if "access_token" in session %}
+        <!-- Formulaire de téléchargement d'image -->
+        <div class="upload-form">
+            <h2>Analyses de carte Pokémon</h2>
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+                <label for="file">Télécharger une image :</label>
+                <input type="file" id="file" name="file" required>
+                <button type="submit" class="btn">Analyser</button>
+            </form>
+        </div>
+        {% else %}
+        <!-- Lien vers la connexion à eBay -->
+        <div class="login-link">
+            <a href="/login" class="btn">Connectez-vous à eBay</a>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Searchokemon | <a href="/privacy" class="footer-link">Privacy Policy</a></p>
+    </footer>
+
 </body>
+
 </html>

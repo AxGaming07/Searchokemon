@@ -1,0 +1,114 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  h1, h2 {
+    color: #FF0000; /* Rouge pour les titres */
+    text-align: center;
+  }
+  
+  /* Header */
+  header {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  /* Conteneur principal */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Formulaire de téléchargement */
+  .upload-form {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #111;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-form input[type="file"] {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .upload-form button {
+    margin-top: 20px;
+    background-color: #FF0000; /* Rouge */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .upload-form button:hover {
+    background-color: #cc0000;
+  }
+  
+  /* Lien de connexion */
+  .login-link {
+    margin-top: 40px;
+  }
+  
+  .login-link a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #111;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .login-link a:hover {
+    background-color: #FF0000;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  footer a {
+    color: #FF0000;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
