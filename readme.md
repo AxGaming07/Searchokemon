@@ -28,7 +28,7 @@ pip install requests google-cloud-vision Flask
 Clonez ce dépôt :
 bash
 Copier le code
-git clone https://github.com/votre-utilisateur/Searchokemon.git
+git clone https://github.com/AxGaming07/Searchokemon.git
 cd Searchokemon
 Ajoutez votre clé JSON de Google Vision dans le dossier racine du projet.
 Configurez vos identifiants eBay dans auth.py :
